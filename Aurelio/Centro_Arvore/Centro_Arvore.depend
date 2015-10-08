@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1428300349 source:c:\users\zaphod\documents\udesc\teg\centro_arvore\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1428300349 
+
+1428286948 source:/home/leonardo/Documentos/Trabalhos-TEG/Aurelio/Centro_Arvore/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

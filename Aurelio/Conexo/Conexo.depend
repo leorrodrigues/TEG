@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1428030576 source:c:\users\alexandre\google drive\udesc\5o semestre\teg\exercicios\conexo\conexo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1428030576 
+
+1428077704 source:/home/leonardo/Documentos/Trabalhos-TEG/Aurelio/Conexo/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

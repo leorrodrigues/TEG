@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1429101495 source:c:\users\alexandre\google drive\udesc\5o semestre\teg\exercicios\percursoemarvore\percursoemarvore\lista.c
+	"Lista.h"
+	<stdlib.h>
+	<string.h>
+
+1429098864 c:\users\alexandre\google drive\udesc\5o semestre\teg\exercicios\percursoemarvore\percursoemarvore\lista.h
+	<stdlib.h>
+
+1429101556 source:c:\users\alexandre\google drive\udesc\5o semestre\teg\exercicios\percursoemarvore\percursoemarvore\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
