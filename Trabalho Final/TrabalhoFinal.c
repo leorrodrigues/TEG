@@ -315,7 +315,7 @@ void dijkstra(){
             t1[i].estimativa=1000;
             t1[i].precedente=NULL;
         }
-        t1[j].precedente=1;
+        t1[j].precedente=j+1;
         t1[j].estimativa=0;
         for(i=0;i<j;i++)
             aux=aux->proximo;
