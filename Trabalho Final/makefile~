@@ -1,0 +1,9 @@
+all:	TrabalhoFinal
+TrabalhoFinal: TrabalhoFinal.o
+	gcc TrabalhoFinal -o TrabalhoFinal.o
+TrabalhoFinal.o: TrabalhoFinal.c
+	gcc -o TrabalhoFinal.o -c TrabalhoFinal.c
+clean: 
+	rm -rf *.o
+mrproper: clean
+	rm -rf TrabalhoFinal

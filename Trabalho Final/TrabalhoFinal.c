@@ -167,9 +167,9 @@ int checa_vazio(Dados *dados) {
 
 void *lista_adjacencia(){
     FILE *fp=fopen("entrada.txt","r");
-    int j,flag=0,leitura=0,flag2=1,p;
-    char str[50],ch,*p_ch,ch2[3];//String que recebera cada linha do arquivo
-    p_ch=&ch2;
+    int j,leitura=0,flag2=1,p;
+    char ch,*p_ch,ch2[3];//String que recebera cada linha do arquivo
+    p_ch=ch2;
     if(!fp){//Caso o arquivo nao tenha sido aberto corretamente
         printf("Erro na abertura do arquivo de entrada\n");
     }
@@ -321,7 +321,7 @@ void dijkstra(){
             aux=aux->proximo;
         t1=dms(aux,t1);
         printf("\033[31;2m");
-        puts("\t\t\tTABELA DIJKSTRA\t\n");
+        printf("\t\t\tTABELA %i\t\n\n",i+1);
         printf("VERTICES:");
         for(i=0;i<cont;i++){
             printf("\t%i",t1[i].vertice);
